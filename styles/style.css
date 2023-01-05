@@ -25,7 +25,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 51px 200px;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -188,4 +188,41 @@ color: #757575;
 .resume-btn{
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 113px;
+}
+/* contact section */
+.contact{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 60px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact-discription{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-title2{
+    color: #181818;
+    font-weight: 700;
+font-size: 35px;
+margin-top: 243px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+margin-bottom: 24px;
+border: 0px;
+width: 100%;
+padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+    
+}
+ima{
+    gap: 50px;
 }
